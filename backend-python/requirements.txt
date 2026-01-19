@@ -1,0 +1,32 @@
+# ---------- Core ----------
+numpy==1.24.4
+
+# ---------- PyTorch CPU ----------
+torch==2.1.2
+torchaudio==2.1.2
+
+# ---------- Whisper ----------
+openai-whisper
+
+# ---------- Audio Processing ----------
+soundfile
+librosa
+
+# ---------- Backend ----------
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ---------- Language Detection ----------
+langdetect==1.0.9
+
+# ---------- Translation ----------
+deep-translator==1.11.4
+
+# ---------- Ollama Integration ----------
+requests==2.31.0
+httpx==0.25.1
+
+# ---------- Utilities ----------
+python-dotenv==1.0.0
+aiofiles==23.2.1
